@@ -6,5 +6,9 @@ namespace ClassMetotDemo
 {
     class MusteriManager
     {
+        public void Ekle(Musteri musteri)
+        {
+            Console.WriteLine(musteri.Id +" Numaralı");
+        }
     }
 }
